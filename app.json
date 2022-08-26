@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "ToDo",
+    "slug": "ToDo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/ToDoIcon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splashIcon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/ToDoIcon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.luiz_fernando.ToDo"
+    },
+    "web": {
+      "favicon": "./assets/ToDoIcon.png"
+    }
+  }
+}
